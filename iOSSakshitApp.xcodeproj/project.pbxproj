@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6198D5FB2FEE3B7DE0C874D6 /* Pods_iOSSakshitAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E3B9C4ABF015300C122DDC /* Pods_iOSSakshitAppTests.framework */; };
+		AB5BD7A3A57043CBAFC3562B /* Pods_iOSSakshitApp_iOSSakshitAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3545633AD95A489F9F015628 /* Pods_iOSSakshitApp_iOSSakshitAppUITests.framework */; };
+		C01628996B1E0D6A7935DBBC /* Pods_iOSSakshitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F78FB8F8F2EB6CC96E2FB8E /* Pods_iOSSakshitApp.framework */; };
 		C8DBB8DC26050FC500B0CD0B /* iOSSakshitAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DBB8DB26050FC500B0CD0B /* iOSSakshitAppApp.swift */; };
 		C8DBB8DE26050FC500B0CD0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DBB8DD26050FC500B0CD0B /* ContentView.swift */; };
 		C8DBB8E026050FCD00B0CD0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8DBB8DF26050FCD00B0CD0B /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 		C8DBB8F926050FCE00B0CD0B /* iOSSakshitAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DBB8F826050FCE00B0CD0B /* iOSSakshitAppUITests.swift */; };
 		C8DBB91C2605236700B0CD0B /* shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DBB91326051F9400B0CD0B /* shared.framework */; };
 		C8DBB91D2605236700B0CD0B /* shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C8DBB91326051F9400B0CD0B /* shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C8DBB9A726053D1B00B0CD0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8DBB9A626053D1B00B0CD0B /* GoogleService-Info.plist */; };
+		C8DBB9A826053D1B00B0CD0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8DBB9A626053D1B00B0CD0B /* GoogleService-Info.plist */; };
+		C8DBB9A926053D1B00B0CD0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8DBB9A626053D1B00B0CD0B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1CFB869DA9EC60280269B6BC /* Pods-iOSSakshitAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSakshitAppTests.release.xcconfig"; path = "Target Support Files/Pods-iOSSakshitAppTests/Pods-iOSSakshitAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		3545633AD95A489F9F015628 /* Pods_iOSSakshitApp_iOSSakshitAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSSakshitApp_iOSSakshitAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F78FB8F8F2EB6CC96E2FB8E /* Pods_iOSSakshitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSSakshitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634DC3910D40D659B9BBBB77 /* Pods-iOSSakshitAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSakshitAppTests.debug.xcconfig"; path = "Target Support Files/Pods-iOSSakshitAppTests/Pods-iOSSakshitAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82E3B9C4ABF015300C122DDC /* Pods_iOSSakshitAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSSakshitAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E323D3613CCF3A39526824 /* Pods-iOSSakshitApp-iOSSakshitAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSakshitApp-iOSSakshitAppUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSSakshitApp-iOSSakshitAppUITests/Pods-iOSSakshitApp-iOSSakshitAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5BA14F4C4E1C48556173131 /* Pods-iOSSakshitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSakshitApp.debug.xcconfig"; path = "Target Support Files/Pods-iOSSakshitApp/Pods-iOSSakshitApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C8DBB8D826050FC500B0CD0B /* iOSSakshitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSakshitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8DBB8DB26050FC500B0CD0B /* iOSSakshitAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSSakshitAppApp.swift; sourceTree = "<group>"; };
 		C8DBB8DD26050FC500B0CD0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +75,9 @@
 		C8DBB8F826050FCE00B0CD0B /* iOSSakshitAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSSakshitAppUITests.swift; sourceTree = "<group>"; };
 		C8DBB8FA26050FCE00B0CD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8DBB91326051F9400B0CD0B /* shared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = shared.framework; path = "../android/shared/build/xcode-frameworks/shared.framework"; sourceTree = "<group>"; };
+		C8DBB9A626053D1B00B0CD0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D5595A44641EAE0615FBDC42 /* Pods-iOSSakshitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSakshitApp.release.xcconfig"; path = "Target Support Files/Pods-iOSSakshitApp/Pods-iOSSakshitApp.release.xcconfig"; sourceTree = "<group>"; };
+		F54301CDA4637D76F0C35ACB /* Pods-iOSSakshitApp-iOSSakshitAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSakshitApp-iOSSakshitAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSSakshitApp-iOSSakshitAppUITests/Pods-iOSSakshitApp-iOSSakshitAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +86,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8DBB91C2605236700B0CD0B /* shared.framework in Frameworks */,
+				C01628996B1E0D6A7935DBBC /* Pods_iOSSakshitApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6198D5FB2FEE3B7DE0C874D6 /* Pods_iOSSakshitAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +102,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5BD7A3A57043CBAFC3562B /* Pods_iOSSakshitApp_iOSSakshitAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F2B8C8C5287362EF316D49E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5BA14F4C4E1C48556173131 /* Pods-iOSSakshitApp.debug.xcconfig */,
+				D5595A44641EAE0615FBDC42 /* Pods-iOSSakshitApp.release.xcconfig */,
+				F54301CDA4637D76F0C35ACB /* Pods-iOSSakshitApp-iOSSakshitAppUITests.debug.xcconfig */,
+				A4E323D3613CCF3A39526824 /* Pods-iOSSakshitApp-iOSSakshitAppUITests.release.xcconfig */,
+				634DC3910D40D659B9BBBB77 /* Pods-iOSSakshitAppTests.debug.xcconfig */,
+				1CFB869DA9EC60280269B6BC /* Pods-iOSSakshitAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C8DBB8CF26050FC500B0CD0B = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +130,7 @@
 				C8DBB8F726050FCE00B0CD0B /* iOSSakshitAppUITests */,
 				C8DBB8D926050FC500B0CD0B /* Products */,
 				C8DBB91226051F9300B0CD0B /* Frameworks */,
+				6F2B8C8C5287362EF316D49E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +147,7 @@
 		C8DBB8DA26050FC500B0CD0B /* iOSSakshitApp */ = {
 			isa = PBXGroup;
 			children = (
+				C8DBB9A626053D1B00B0CD0B /* GoogleService-Info.plist */,
 				C8DBB8DB26050FC500B0CD0B /* iOSSakshitAppApp.swift */,
 				C8DBB8DD26050FC500B0CD0B /* ContentView.swift */,
 				C8DBB8DF26050FCD00B0CD0B /* Assets.xcassets */,
@@ -153,6 +187,9 @@
 			isa = PBXGroup;
 			children = (
 				C8DBB91326051F9400B0CD0B /* shared.framework */,
+				3F78FB8F8F2EB6CC96E2FB8E /* Pods_iOSSakshitApp.framework */,
+				3545633AD95A489F9F015628 /* Pods_iOSSakshitApp_iOSSakshitAppUITests.framework */,
+				82E3B9C4ABF015300C122DDC /* Pods_iOSSakshitAppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,11 +201,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8DBB8FD26050FCE00B0CD0B /* Build configuration list for PBXNativeTarget "iOSSakshitApp" */;
 			buildPhases = (
+				385849B31FE48FF9D05F5726 /* [CP] Check Pods Manifest.lock */,
 				C8DBB9152605206200B0CD0B /* ShellScript */,
 				C8DBB8D426050FC500B0CD0B /* Sources */,
 				C8DBB8D526050FC500B0CD0B /* Frameworks */,
 				C8DBB8D626050FC500B0CD0B /* Resources */,
 				C8DBB91E2605236700B0CD0B /* Embed Frameworks */,
+				9FAF00D39DC2184605BAB17B /* [CP] Embed Pods Frameworks */,
+				C8DBB9532605369A00B0CD0B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -183,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8DBB90026050FCE00B0CD0B /* Build configuration list for PBXNativeTarget "iOSSakshitAppTests" */;
 			buildPhases = (
+				F8B0D8D66316379F1E1944E7 /* [CP] Check Pods Manifest.lock */,
 				C8DBB8E526050FCE00B0CD0B /* Sources */,
 				C8DBB8E626050FCE00B0CD0B /* Frameworks */,
 				C8DBB8E726050FCE00B0CD0B /* Resources */,
@@ -201,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8DBB90326050FCE00B0CD0B /* Build configuration list for PBXNativeTarget "iOSSakshitAppUITests" */;
 			buildPhases = (
+				E4C4838F9699D773A9AD12A8 /* [CP] Check Pods Manifest.lock */,
 				C8DBB8F026050FCE00B0CD0B /* Sources */,
 				C8DBB8F126050FCE00B0CD0B /* Frameworks */,
 				C8DBB8F226050FCE00B0CD0B /* Resources */,
+				841945084E8028202BB9D545 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,6 +307,7 @@
 			files = (
 				C8DBB8E326050FCD00B0CD0B /* Preview Assets.xcassets in Resources */,
 				C8DBB8E026050FCD00B0CD0B /* Assets.xcassets in Resources */,
+				C8DBB9A726053D1B00B0CD0B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8DBB9A826053D1B00B0CD0B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,12 +323,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8DBB9A926053D1B00B0CD0B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		385849B31FE48FF9D05F5726 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSSakshitApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		841945084E8028202BB9D545 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSSakshitApp-iOSSakshitAppUITests/Pods-iOSSakshitApp-iOSSakshitAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSSakshitApp-iOSSakshitAppUITests/Pods-iOSSakshitApp-iOSSakshitAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSSakshitApp-iOSSakshitAppUITests/Pods-iOSSakshitApp-iOSSakshitAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FAF00D39DC2184605BAB17B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSSakshitApp/Pods-iOSSakshitApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSSakshitApp/Pods-iOSSakshitApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSSakshitApp/Pods-iOSSakshitApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C8DBB9152605206200B0CD0B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,6 +402,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "cd \"$SRCROOT/../android\"\n./gradlew :shared:packForXCode -PXCODE_CONFIGURATION=${CONFIGURATION}\n";
+		};
+		C8DBB9532605369A00B0CD0B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/../android/shared/build/xcode-frameworks/*.dSYM",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		E4C4838F9699D773A9AD12A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSSakshitApp-iOSSakshitAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8B0D8D66316379F1E1944E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSSakshitAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -463,6 +629,7 @@
 		};
 		C8DBB8FE26050FCE00B0CD0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5BA14F4C4E1C48556173131 /* Pods-iOSSakshitApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,7 +637,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iOSSakshitApp/Preview Content\"";
 				DEVELOPMENT_TEAM = BSC84TGZQ7;
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../android/shared/build/xcode-frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../android/shared/build/xcode-frameworks",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = iOSSakshitApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,6 +656,7 @@
 		};
 		C8DBB8FF26050FCE00B0CD0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5595A44641EAE0615FBDC42 /* Pods-iOSSakshitApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -493,7 +664,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iOSSakshitApp/Preview Content\"";
 				DEVELOPMENT_TEAM = BSC84TGZQ7;
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../android/shared/build/xcode-frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../android/shared/build/xcode-frameworks",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = iOSSakshitApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -509,6 +683,7 @@
 		};
 		C8DBB90126050FCE00B0CD0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634DC3910D40D659B9BBBB77 /* Pods-iOSSakshitAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -531,6 +706,7 @@
 		};
 		C8DBB90226050FCE00B0CD0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CFB869DA9EC60280269B6BC /* Pods-iOSSakshitAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -553,6 +729,7 @@
 		};
 		C8DBB90426050FCE00B0CD0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54301CDA4637D76F0C35ACB /* Pods-iOSSakshitApp-iOSSakshitAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -573,6 +750,7 @@
 		};
 		C8DBB90526050FCE00B0CD0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E323D3613CCF3A39526824 /* Pods-iOSSakshitApp-iOSSakshitAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
