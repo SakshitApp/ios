@@ -7,11 +7,14 @@
 
 import SwiftUI
 import Firebase
+import shared
 
 @main
 struct iOSSakshitAppApp: App {
+    
     init() {
         FirebaseApp.configure()
+        SharedFactory.Companion.init().initialize()
     }
     
     var body: some Scene {

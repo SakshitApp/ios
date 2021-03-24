@@ -10,8 +10,9 @@ import shared
 
 struct ContentView: View {
     var body: some View {
-        Text(Greeting().greeting())
-                .padding()
+        NavigationView{
+            SplashView(viewModel: SplashView.ViewModel(repository: FCMUserRepository()))
+        }
     }
 }
 
