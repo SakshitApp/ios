@@ -35,7 +35,7 @@ struct RoleView: View {
             }
             .padding()
             .background(Color.white)
-            NavigationLink(destination: HomeView(), isActive: $viewModel.pushToHome) {
+            NavigationLink(destination: HomeTabView(), isActive: $viewModel.pushToHome) {
                 EmptyView()
             }.hidden()
         }

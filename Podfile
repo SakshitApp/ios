@@ -10,7 +10,8 @@ target 'iOSSakshitApp' do
   pod 'Firebase/Crashlytics'
   pod 'Firebase/Auth'
   pod 'MaterialComponents/ProgressView'
-  pod 'MaterialComponents/Snackbar'
+  pod 'URLImage'
+  pod 'DropDown'
 
   target 'iOSSakshitAppTests' do
     inherit! :search_paths

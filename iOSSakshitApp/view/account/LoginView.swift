@@ -42,7 +42,7 @@ struct LoginView: View {
                 }
                 Spacer()
             }.padding(EdgeInsets(top: 0, leading: 72, bottom: 0, trailing: 72))
-            NavigationLink(destination: HomeView(), isActive: $viewModel.pushToHome) {
+            NavigationLink(destination: HomeTabView(), isActive: $viewModel.pushToHome) {
                 EmptyView()
             }.hidden()
         }

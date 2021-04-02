@@ -13,7 +13,7 @@ struct SplashView: View {
     
     var body: some View {
         VStack(alignment: .center){
-            NavigationLink(destination: HomeView(), tag: "\(LoadableLaunches.result)", selection: $viewModel.launches) {
+            NavigationLink(destination: HomeTabView(), tag: "\(LoadableLaunches.result)", selection: $viewModel.launches) {
                 EmptyView()
             }.hidden()
             NavigationLink(destination: LoginView(viewModel: LoginView.ViewModel(repository: FCMUserRepository())), tag: "\(LoadableLaunches.error)", selection: $viewModel.launches) {
